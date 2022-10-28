@@ -1,0 +1,51 @@
+.main_2{
+   width: 40%;
+   margin: auto;
+   margin-top: 2%;
+}
+
+.input_value2{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-bottom: 5%;
+}
+
+.input_value2 h3{
+   margin-bottom: 5%;
+}
+
+.input_value2 input , textarea{
+   border: 1px solid rgba(128, 128, 128, 0.171);
+   resize: none;
+   padding: 1%;
+}
+
+.input_value2 input{
+   margin-bottom: 2%;
+}
+
+.addbtn{
+   background-color: rgba(0, 128, 0, 0.603);
+   border: none;
+}
+
+.addbtn:hover{
+   background-color: rgb(2, 71, 2) !important;
+}
+
+.showed{
+   border: 2px solid rgba(0, 128, 0, 0.342);
+   margin-bottom: 3%;
+   padding: 2%;
+   border-radius: 10px;
+}
+
+.showed:hover{
+   background-color: rgba(0, 128, 0, 0.699);
+   color: white;
+}
+
+#btn2{
+   display: none;
+}

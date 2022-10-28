@@ -1,0 +1,72 @@
+body{
+   background-color: #f0f2f5;
+}
+
+.main{
+   width: 50%;
+   margin: auto;
+}
+
+.inputValue{
+   display: flex;
+}
+
+.inputValue input{
+   width: 100%;
+   padding-left: 10px;
+   margin-right: 10px;
+   border: none;
+}
+
+.inputValue button{
+   width: 20%;
+}
+
+.display{
+   padding: 2%;
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+   width: 100%;
+   background-color: white;
+   border-radius: 10px;
+   border-left: 5px solid rgba(0, 0, 0, 0.315);
+}
+
+.display div{
+   display: flex;
+   justify-content: space-between;
+   width: 20%;
+}
+
+.setValue{
+   display: flex;
+   flex-direction: column;
+}
+
+.search{
+   display: flex;
+   justify-content: center;
+   margin-bottom: 5%;
+}
+.search select, input{
+   border: none;
+   width: 40%;
+   margin-right: 10px;
+}
+
+.search button{
+   margin-right: 10px;
+   width: 15%;
+}
+
+.inputValue #btn2{
+   display: none;
+}
+
+.modal-body input{
+   border: 1px solid rgba(0, 0, 0, 0.171);
+   width: 60%;
+   border-radius: 10px;
+   padding: 10px;
+}
